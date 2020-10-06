@@ -1,0 +1,120 @@
+{
+    "About":[
+        {
+            "img"   :"../images/about-mission.jpg",
+            "icon"  :"fa fa-clock-o",
+            "title" :"Our Mission",
+            "description":"Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."  
+        },
+        {
+            "img"   :"../images/about-plan.jpg",
+            "icon"  :"fa fa-list",
+            "title" :"Our plan",
+            "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+            
+        },
+        {
+            "img"   :"../images/about-vision.jpg",
+            "icon"  :"fa fa-eye",
+            "title" :"Our vision",
+            "description":"Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet."  
+        }
+    ],
+    "services":[
+        {
+            "icon"  :"fa fa-glass",
+            "title" :"Lorem Ipsum",
+            "description":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+        },
+        {
+            "icon"  :"fa fa-life-buoy",
+            "title" :"Magni Dolores",
+            "description":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        {
+            "icon"  :"fa fa-tags",
+            "title" :"Dolor Sitema",
+            "description":"Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata"
+        },
+        {
+            "icon"  :"fa fa-th-large",
+            "title" :"Nemo Enim",
+            "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque"
+        },
+        {
+            "icon"  :"fa fa-hourglass-start",
+            "title" :"Sed ut perspiciatis",
+            "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+        },
+        {
+            "icon"  :"fa fa-users",
+            "title" :"Eiusmod Tempor",
+            "description":"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi"
+        }
+    ],
+    "portfolio":[
+        {   "id" :1,
+            "img"   :"../images/portfolio/app1.jpg",
+             "title":"app1",
+             "description":"App",
+             "filter":"app"   
+        },
+        {
+            "id" :2,
+            "img"   :"../images/portfolio/web3.jpg",
+             "title":"web3",
+             "description":"web",
+             "filter":"web"   
+        },
+        {
+            "id" :3,
+            "img"   :"../images/portfolio/app3.jpg",
+             "title":"app3",
+             "description":"App",
+             "filter":"app"   
+        },
+        {
+            "id" :4,
+            "img"   :"../images/portfolio/card1.jpg",
+             "title":"card1",
+             "description":"card",
+             "filter":"carde"   
+        },
+        {
+            "id" :5,
+            "img"   :"../images/portfolio/web2.jpg",
+             "title":"web2",
+             "description":"web",
+             "filter":"web"   
+        },
+        {
+            "id" :6,
+            "img"   :"../images/portfolio/app2.jpg",
+             "title":"app2",
+             "description":"app",
+             "filter":"app"  
+        },
+        {
+            "id" :7,
+            "img"   :"../images/portfolio/web1.jpg",
+             "title":"web1",
+             "description":"web",
+             "filter":"web"   
+        },
+        {
+            "id" :8,
+            "img"   :"../images/portfolio/card2.jpg",
+             "title":"card2",
+             "description":"card",
+             "filter":"carde"   
+        },
+        {
+            "id" :9,
+            "img"   :"../images/portfolio/card3.jpg",
+             "title":"card3",
+             "description":"card",
+             "filter":"carde"   
+        }
+    ]
+    
+}

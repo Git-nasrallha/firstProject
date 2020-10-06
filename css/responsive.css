@@ -1,0 +1,108 @@
+
+/* media screen
+
+1- mobile screen
+max-with:576px
+2-small screen
+    // min-small
+    min-width:578px
+    /max-small
+    max-with:991px
+3-medium screen
+ min-width:992px;
+4-large screen
+min-width:1200px
+
+*/
+
+/*max small screen*/
+@media (max-width:991px){
+    #mobile-nav,#mobile-body-overlay,#mobile-nav-toggle{
+        display:block;
+    }
+    #nav-container{
+        display: none;
+    }
+}
+/*mobile screen*/
+@media (max-width:576px){
+    #intro #intro-content .content-item .item-caption{
+        width: 90%; left: 5%;
+    }
+    #intro #intro-content .content-item .item-caption h2{
+        font-weight: normal;font-size: 20px;
+    }
+    #intro #intro-content .content-item .item-caption p{
+        font-size: 12px; line-height: normal;
+    }
+    #intro #control span:first-of-type{
+        margin-left: 2px;
+    }
+    #intro #control span:last-of-type{
+        margin-right: 2px;
+    }
+    #intro #inducators {
+        left: 20%;
+    }
+
+   
+    .section-header h3:before{
+        left: 25%;
+    }
+    .section-header h3:after{
+        left: 43%;
+    }
+    .about #About .card .card-body .fa{
+        top:30%
+    }
+    .coll .coll-content p{
+        padding: 0;
+        font-weight: normal;
+
+    }
+    .portfolio{
+        padding: 60px 0;
+    }
+    .portfolio .section-header .portfolio-type{
+        width: auto;
+    }
+    .portfolio .section-header .portfolio-type li{
+        margin-right: 10px;
+    }
+    
+.contact div.cont-info:not(:first-of-type){
+    border-left: none;
+}
+    footer .footer-end{
+        line-height: normal;
+    }
+}
+/*small screen*/
+@media( min-width:578px) and (max-width:991px){
+    #intro #intro-content .content-item .item-caption{
+        width: 85%; left: 5%;
+    }
+    #intro #control span:first-of-type{
+        margin-left: 5px;
+    }
+    #intro #control span:last-of-type{
+        margin-right: 5px;
+    }
+    #intro #intro-content .content-item .item-caption p{
+        margin-bottom: 60px;
+    }
+    #intro #inducators {
+        left: 30%;
+    }
+   
+    .about #About .card{height: 510px;}
+    .about #About .card .card-body .fa{
+        top: 16%;
+    }
+}
+/*medium screen*/
+@media (min-width:992px) and (max-width:1200px){
+    #intro #intro-content .content-item .item-caption{
+        left: 14%;
+    }
+}
